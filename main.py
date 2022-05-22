@@ -36,9 +36,9 @@ while i < len(numbers):
         break
 
 counter = 0
-for x in range(len(numbers)):
+for x in range(1, len(numbers)):
     #Print all primes (10 per line)
-    if numbers[x] == True:
+    if numbers[x]:
         print(str(x + 1).ljust(15), end = "")
         counter += 1
     if counter == 10:
